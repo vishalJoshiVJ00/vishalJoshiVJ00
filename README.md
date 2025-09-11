@@ -26,7 +26,7 @@ Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills**
 ---
 
 ## 📈 My GitHub Stats  
-![Vishal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&theme=radical)
+![Vishal's GitHub Stats](https://github-readme-stats.vercel.app/api?username=vishalJoshiVJ00&show_icons=true&theme=radical)
 
 ---
 
