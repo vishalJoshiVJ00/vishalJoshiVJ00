@@ -40,7 +40,7 @@ Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills**
 ---
 
 ## 📫 Let's Connect  
-- 💼 [LinkedIn](https://www.linkedin.com/in/vishal-joshi-041719375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ) (add your profile link when ready)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/vishal-joshi-041719375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )  
 - 🧠 Fun fact: I love mixing coding with logic puzzles to keep my brain sharp!  
 
 ---
