@@ -13,9 +13,12 @@ Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills**
 - 🐍 Learning **Python** for scripting and automation  
 - 🎨 Exploring **Flutter & Dart** to build cross-platform apps  
 - 🌐 Basic knowledge of **HTML & CSS**  
-- ♟ Hobbies include playing chess and solving logical puzzles  
+- ♟ Hobbies include playing chess and solving logical puzzles
 
 ---
+
+![Profile views](https://komarev.com/ghpvc/?username=vishalJoshiVJ00)
+
 
 ## 🔧 Tech & Tools I Use  
 - **Languages:** C, C++, Python (Learning), Dart (Learning)  
