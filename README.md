@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Vishal Joshi  
 
-🚀 **BCA Student | Aspiring Full-Stack Developer | Logic & Puzzle Lover**  
+🚀 **BCA Student | Aspiring AI POWERED APP Developer | Logic & Puzzle Lover**  
 
 I'm passionate about **programming**, **problem solving**, and **building apps**.  
 Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills** in C/C++.
