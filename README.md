@@ -3,13 +3,13 @@
 🚀 **BCA Student | Aspiring AI POWERED APP Developer | Logic & Puzzle Lover**  
 
 I'm passionate about **programming**, **problem solving**, and **building apps**.  
-Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills** in C/C++.
+Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills**
 
 ---
 
 ## 💡 About Me  
 - 🎓 Pursuing **BCA**  
-- ⚡ Strong foundation in **C**, **C++**, and **Data Structures & Algorithms**  
+- ⚡ Strong foundation in python , c++ , java and **Data Structures & Algorithms**  
 - 🐍 Learning **Python** for scripting and automation  
 - 🎨 Exploring **Flutter & Dart** to build cross-platform apps  
 - 🌐 Basic knowledge of **HTML & CSS**  
@@ -21,9 +21,9 @@ Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills**
 
 
 ## 🔧 Tech & Tools I Use  
-- **Languages:** C, C++, Python (Learning), Dart (Learning)  
-- **Core Skills:** Data Structures & Algorithms, Problem Solving  
-- **Frameworks & Tools:** Flutter (Beginner), Git, GitHub, VS Code  
+- **Languages:** C, C++, Python, Dart (Learning) , java(learning) 
+- **Core Skills:** Data Structures & Algorithms, Problem Solving  , gen ai 
+- **Frameworks & Tools:** Flutter (Beginner), Git, GitHub, VS Code , intellij
 - **Others:** Basic Web Development (HTML, CSS)
 
 ---
@@ -33,12 +33,6 @@ Currently, I'm learning **Python**, **Flutter**, and improving my **DSA skills**
 
 ---
 
-## 🎯 2025 Goals  
-- 📚 Master DSA concepts and solve 200+ problems  
-- 🖥 Build 5+ mini projects (Python + Flutter)  
-- 🌱 Contribute to open-source projects  
-- 🏗 Create my personal portfolio website  
-- 🚀 Strengthen problem-solving & logical thinking  
 
 ---
 
