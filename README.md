@@ -236,41 +236,6 @@
 
 ---
 
-# 📅 GitHub Contribution Calendar
-
-<div align="center">
-
-<img src="https://ghchart.rshah.org/6C63FF/vishalJoshiVJ00" alt="GitHub Contribution Chart"/>
-
-</div>
-
----
-
-# 🚀 Coding Activity
-
-<div align="center">
-
-<img src="https://github-widgetbox.vercel.app/api/profile?username=vishalJoshiVJ00&theme=dark"/>
-
-</div>
-
----
-
-# 💻 Development Journey
-
-```text
-Java                  ███████████░░░░░░░░
-DSA with Java         ████████░░░░░░░░░░░
-Python                ██████████░░░░░░░░░
-Flutter               ██████░░░░░░░░░░░░░
-Generative AI         ███████░░░░░░░░░░░░
-Cloud Computing       █████░░░░░░░░░░░░░░
-System Design         ████░░░░░░░░░░░░░░░
-Cyber Security        ███░░░░░░░░░░░░░░░░
-```
-
----
-
 # 🎯 2026 Goals
 
 - 🚀 Master Java Programming
@@ -374,29 +339,6 @@ Cyber Security        ███░░░░░░░░░░░░░░░░
 
 ---
 
-# 📚 Currently Exploring
-
-```text
-☕ Java Programming
-
-📚 Data Structures & Algorithms with Java
-
-🤖 Generative AI
-
-📱 Flutter Development
-
-🐍 Advanced Python
-
-☁ Cloud Computing
-
-🏗 System Design
-
-🔐 Cyber Security
-
-🌍 Open Source Contribution
-```
-
----
 
 # 🧠 Knowledge Base
 
@@ -417,38 +359,7 @@ Cyber Security        ███░░░░░░░░░░░░░░░░
 
 ---
 
-# 🚀 2026 Roadmap
 
-- ✅ Master Java
-- ✅ Complete DSA
-- ✅ Learn Flutter
-- ✅ Learn Backend
-- ✅ Build AI Projects
-- ✅ Learn System Design
-- ✅ Learn Cloud
-- ✅ Explore Cyber Security
-- ✅ Build Open Source Projects
-- ✅ Crack Good Internship
-
----
-
-# 🏅 Developer Mindset
-
-```text
-✔ Learn Every Day
-
-✔ Build Real Projects
-
-✔ Write Clean Code
-
-✔ Solve Problems
-
-✔ Stay Consistent
-
-✔ Never Stop Learning
-```
-
----
 
 # 💬 Random Dev Quote
 
@@ -599,20 +510,7 @@ that solve real-world problems.
 
 ---
 
-# 📚 Knowledge & Skills
 
-| Category | Skills |
-|-----------|--------|
-| Programming | Java • Python • C • C++ |
-| Mobile | Flutter |
-| Database | MySQL • MongoDB |
-| Version Control | Git • GitHub |
-| IDE | VS Code • IntelliJ IDEA |
-| AI | Generative AI |
-| Computer Science | DBMS • Computer Architecture |
-| Learning | Cloud Computing • System Design • Cyber Security |
-
----
 
 # 📅 Weekly Development Goals
 
@@ -648,59 +546,8 @@ while(alive)
 
 ---
 
-# 📌 Current Focus
 
-🟢 Java
 
-🟢 Data Structures & Algorithms
-
-🟢 Flutter Development
-
-🟢 Artificial Intelligence
-
-🟢 Generative AI
-
-🟢 Backend Development
-
-🟢 Problem Solving
-
----
-
-# 📊 My Learning Progress
-
-Java
-
-██████████████░░░░░░░░░░
-
-Python
-
-████████████████████░░░░
-
-Flutter
-
-███████████░░░░░░░░░░░░
-
-DSA
-
-██████████░░░░░░░░░░░░░
-
-Generative AI
-
-████████░░░░░░░░░░░░░░░
-
-Cloud Computing
-
-██████░░░░░░░░░░░░░░░░░
-
-Cyber Security
-
-█████░░░░░░░░░░░░░░░░░░
-
-System Design
-
-████░░░░░░░░░░░░░░░░░░░
-
----
 
 # 🎖️ Soft Skills
 
