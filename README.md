@@ -1,7 +1,167 @@
 <div align="center">
 
-<!-- Custom Cybernetic Terminal Banner -->
-<img src="assets/cyber-header.svg" width="100%" alt="Cyber Terminal Banner" />
+<!-- Custom Cybernetic Terminal Banner (Fully Inline & SMIL Animated) -->
+<svg width="100%" height="350" viewBox="0 0 850 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Terminal Window with color-pulsing background and neon-shifting border -->
+  <rect x="5" y="5" width="840" height="340" rx="10" fill="#050814" stroke="#00ff66" stroke-width="1.5">
+    <animate attributeName="fill" values="#050814;#090c1f;#050814;#0d0818;#050814" dur="15s" repeatCount="indefinite" />
+    <animate attributeName="stroke" values="#00ff66;#00f0ff;#00ff66" dur="8s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Terminal Title Bar -->
+  <path d="M 5 15 A 10 10 0 0 1 15 5 L 835 5 A 10 10 0 0 1 845 15 L 845 40 L 5 40 Z" fill="#0d1527" />
+  <circle cx="25" cy="22" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="22" r="6" fill="#ffbd2e" />
+  <circle cx="65" cy="22" r="6" fill="#27c93f" />
+  <text x="425" y="27" text-anchor="middle" fill="#7f8c8d" font-family="monospace" font-size="12">vishal@ai-core:~</text>
+
+  <!-- Matrix falling columns -->
+  <g transform="translate(100, 40)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="100,-150; 100,300" dur="6s" repeatCount="indefinite" />
+      <text x="0" y="20" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">1</text>
+      <text x="0" y="40" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">0</text>
+      <text x="0" y="60" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">1</text>
+      <text x="0" y="80" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">0</text>
+      <text x="0" y="100" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">1</text>
+    </g>
+  </g>
+  <g transform="translate(240, 40)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="240,-150; 240,300" dur="9s" repeatCount="indefinite" />
+      <text x="0" y="20" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">0</text>
+      <text x="0" y="40" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">1</text>
+      <text x="0" y="60" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">A</text>
+      <text x="0" y="80" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">I</text>
+      <text x="0" y="100" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">1</text>
+    </g>
+  </g>
+  <g transform="translate(380, 40)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="380,-150; 380,300" dur="12s" repeatCount="indefinite" />
+      <text x="0" y="20" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">J</text>
+      <text x="0" y="40" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">A</text>
+      <text x="0" y="60" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">V</text>
+      <text x="0" y="80" fill="#00ff66" font-family="monospace" font-size="12" opacity="0.15">A</text>
+    </g>
+  </g>
+
+  <!-- Left Console Area -->
+  <g font-family="monospace" font-size="16" fill="#a9b1d6">
+    <!-- Line 1 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.1s" fill="freeze" />
+      <text x="25" y="80">
+        <tspan fill="#00f0ff" font-weight="bold">vishal</tspan><tspan fill="#a9b1d6">@ai-core</tspan><tspan fill="#00ff66">:~$</tspan>
+        <tspan fill="#ffffff"> ./init_profile.sh</tspan>
+      </text>
+    </g>
+
+    <!-- Line 2 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="2.0s" dur="0.1s" fill="freeze" />
+      <text x="25" y="115">
+        <tspan fill="#00ff66" font-weight="bold">[✓] </tspan>Loading Neural Networks... Done (120ms)
+      </text>
+    </g>
+
+    <!-- Line 3 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="3.5s" dur="0.1s" fill="freeze" />
+      <text x="25" y="150">
+        <tspan fill="#00ff66" font-weight="bold">[✓] </tspan>Activating Tech Stack: Java | Python | Flutter | GenAI
+      </text>
+    </g>
+
+    <!-- Line 4 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="5.0s" dur="0.1s" fill="freeze" />
+      <text x="25" y="185">
+        <tspan fill="#00ff66" font-weight="bold">[✓] </tspan>Targeting: AI-Powered Software Engineering
+      </text>
+    </g>
+
+    <!-- Line 5 -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="6.5s" dur="0.1s" fill="freeze" />
+      <text x="25" y="220">
+        <tspan fill="#00ff66" font-weight="bold">[✓] </tspan>Mission: "Build the future using algorithms &amp; intelligence"
+      </text>
+    </g>
+
+    <!-- Terminal Status Line -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="8.0s" dur="0.1s" fill="freeze" />
+      <rect x="25" y="240" width="10" height="18" fill="#00ff66">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+      <text x="40" y="255" fill="#00ff66" font-size="14">Console active. Ready to deploy.</text>
+    </g>
+  </g>
+
+  <!-- Right Side: AI Cybernetic Network Visualizer -->
+  <!-- Outer Radar Frame -->
+  <circle cx="680" cy="180" r="100" fill="none" stroke="#00f0ff" stroke-width="0.5" opacity="0.3" />
+  <circle cx="680" cy="180" r="70" fill="none" stroke="#00ff66" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.3" />
+  <circle cx="680" cy="180" r="40" fill="none" stroke="#00f0ff" stroke-width="0.5" opacity="0.2" />
+  <circle cx="680" cy="180" r="10" fill="none" stroke="#00ff66" stroke-width="1" />
+  
+  <!-- Radar Crosshairs -->
+  <line x1="570" y1="180" x2="790" y2="180" stroke="#00f0ff" stroke-width="0.5" opacity="0.2" />
+  <line x1="680" y1="70" x2="680" y2="290" stroke="#00f0ff" stroke-width="0.5" opacity="0.2" />
+  
+  <!-- Radar Sweep Line with rotation -->
+  <line x1="680" y1="180" x2="770" y2="130" stroke="#00ff66" stroke-width="1.5" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" from="0 680 180" to="360 680 180" dur="8s" repeatCount="indefinite" />
+  </line>
+  
+  <!-- Neural Net Node Connections -->
+  <g stroke="#00f0ff" stroke-width="1" stroke-dasharray="5,5">
+    <animate attributeName="stroke" values="#00f0ff;#00ff66;#00f0ff" dur="4s" repeatCount="indefinite"/>
+    <line x1="630" y1="130" x2="680" y2="100" />
+    <line x1="680" y1="100" x2="730" y2="120" />
+    <line x1="730" y1="120" x2="740" y2="200" />
+    <line x1="740" y1="200" x2="690" y2="240" />
+    <line x1="690" y1="240" x2="620" y2="210" />
+    <line x1="620" y1="210" x2="630" y2="130" />
+  </g>
+  <g stroke="#00f0ff" stroke-width="0.5" opacity="0.5">
+    <line x1="680" y1="180" x2="630" y2="130" />
+    <line x1="680" y1="180" x2="680" y2="100" />
+    <line x1="680" y1="180" x2="730" y2="120" />
+    <line x1="680" y1="180" x2="740" y2="200" />
+    <line x1="680" y1="180" x2="690" y2="240" />
+    <line x1="680" y1="180" x2="620" y2="210" />
+  </g>
+  
+  <!-- Neural Net Nodes -->
+  <circle cx="630" cy="130" r="5" fill="#00f0ff">
+    <animate attributeName="r" values="4;7;4" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00f0ff;#00ff66;#00f0ff" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="680" cy="100" r="5" fill="#00f0ff">
+    <animate attributeName="r" values="4;7;4" dur="3s" begin="0.5s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00f0ff;#00ff66;#00f0ff" dur="3s" begin="0.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="730" cy="120" r="5" fill="#00f0ff">
+    <animate attributeName="r" values="4;7;4" dur="3s" begin="1s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00f0ff;#00ff66;#00f0ff" dur="3s" begin="1s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="740" cy="200" r="5" fill="#00f0ff">
+    <animate attributeName="r" values="4;7;4" dur="3s" begin="1.5s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00f0ff;#00ff66;#00f0ff" dur="3s" begin="1.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="690" cy="240" r="5" fill="#00f0ff">
+    <animate attributeName="r" values="4;7;4" dur="3s" begin="2s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00f0ff;#00ff66;#00f0ff" dur="3s" begin="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="620" cy="210" r="5" fill="#00f0ff">
+    <animate attributeName="r" values="4;7;4" dur="3s" begin="2.5s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00f0ff;#00ff66;#00f0ff" dur="3s" begin="2.5s" repeatCount="indefinite" />
+  </circle>
+  
+  <circle cx="680" cy="180" r="6" fill="#00ff66" />
+</svg>
 
 <br>
 
@@ -17,7 +177,21 @@
 
 </div>
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Animated Load Status Indicator for About Me -->
+<svg width="100%" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="40" fill="#050814" rx="5" stroke="#00f0ff" stroke-width="1">
+    <animate attributeName="stroke" values="#00f0ff;#00ff66;#00f0ff" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="24" fill="#00ff66" font-family="monospace" font-size="12" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">load_module --name=identity</tspan>
+  </text>
+  <text x="350" y="24" fill="#a9b1d6" font-family="monospace" font-size="11">
+    [<tspan fill="#00ff66">████████████████████</tspan>] 100% LOADED
+  </text>
+  <circle cx="820" cy="20" r="5" fill="#00ff66">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+</svg>
 
 ## 👾 System Status: About Me
 
@@ -40,7 +214,22 @@
 
 <br clear="right">
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Animated Load Status Indicator for Currently Learning & Focus -->
+<svg width="100%" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="40" fill="#050814" rx="5" stroke="#00ff66" stroke-width="1">
+    <animate attributeName="stroke" values="#00ff66;#00f0ff;#00ff66" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="24" fill="#00ff66" font-family="monospace" font-size="12" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">run --subroutine=learning_focus</tspan>
+  </text>
+  <text x="390" y="24" fill="#a9b1d6" font-family="monospace" font-size="11">
+    STATUS: <tspan fill="#00f0ff">ACTIVE_COMPILING</tspan>
+  </text>
+  <rect x="560" y="16" width="200" height="8" fill="#121c33" rx="2" />
+  <rect x="560" y="16" width="0" height="8" fill="#00f0ff" rx="2">
+    <animate attributeName="width" values="0;200;200;0" keyTimes="0;0.7;0.9;1" dur="3s" repeatCount="indefinite" />
+  </rect>
+</svg>
 
 ## 🚀 Core Subroutines & Focus
 
@@ -73,7 +262,21 @@
 </tr>
 </table>
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Animated Load Status Indicator for Areas of Interest -->
+<svg width="100%" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="40" fill="#050814" rx="5" stroke="#00f0ff" stroke-width="1">
+    <animate attributeName="stroke" values="#00f0ff;#00ff66;#00f0ff" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="24" fill="#00ff66" font-family="monospace" font-size="12" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">map_interests --visualize</tspan>
+  </text>
+  <text x="350" y="24" fill="#a9b1d6" font-family="monospace" font-size="11">
+    [<tspan fill="#00ff66">■■■■■■■■■■■■■■■■■■■■</tspan>] 100% SYNCED
+  </text>
+  <circle cx="820" cy="20" r="5" fill="#00ff66">
+    <animate attributeName="fill" values="#00ff66;#00f0ff;#ff5f56;#00ff66" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
 
 ## 🧠 Areas of Interest
 
@@ -86,7 +289,23 @@
   🔐 Security Protocols────────────────► Cyber Security & Sockets
 ```
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Animated Load Status Indicator for Tech Stack -->
+<svg width="100%" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="40" fill="#050814" rx="5" stroke="#00ff66" stroke-width="1">
+    <animate attributeName="stroke" values="#00ff66;#00f0ff;#00ff66" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="24" fill="#00ff66" font-family="monospace" font-size="12" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">query_db --all-skills</tspan>
+  </text>
+  <text x="320" y="24" fill="#a9b1d6" font-family="monospace" font-size="11">
+    DATA_STREAM: <tspan fill="#00ff66">FETCH_SUCCESS (200 OK)</tspan>
+  </text>
+  <line x1="600" y1="20" x2="800" y2="20" stroke="#121c33" stroke-width="2" />
+  <circle cx="600" cy="20" r="4" fill="#00f0ff">
+    <animate attributeName="cx" values="600;800" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="1;0" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>
 
 ## 💻 Tech Stack & Modules
 
@@ -115,7 +334,23 @@
   <img src="https://skillicons.dev/icons?i=mongodb,mysql,aws" />
 </p>
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Animated Load Status Indicator for Featured Projects -->
+<svg width="100%" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="40" fill="#050814" rx="5" stroke="#00f0ff" stroke-width="1">
+    <animate attributeName="stroke" values="#00f0ff;#00ff66;#00f0ff" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="24" fill="#00ff66" font-family="monospace" font-size="12" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">list_projects --featured</tspan>
+  </text>
+  <text x="330" y="24" fill="#a9b1d6" font-family="monospace" font-size="11">
+    SCANNING REPOS...
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+  </text>
+  <rect x="520" y="15" width="280" height="10" fill="#121c33" rx="2" />
+  <rect x="520" y="15" width="10" height="10" fill="#00ff66" rx="2">
+    <animate attributeName="x" values="520;790;520" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>
 
 ## 🚀 Featured Projects
 
@@ -150,7 +385,21 @@
 </tr>
 </table>
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Animated Load Status Indicator for GitHub Stats -->
+<svg width="100%" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="40" fill="#050814" rx="5" stroke="#00ff66" stroke-width="1">
+    <animate attributeName="stroke" values="#00ff66;#00f0ff;#00ff66" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="24" fill="#00ff66" font-family="monospace" font-size="12" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">fetch --metrics --user=vishalJoshiVJ00</tspan>
+  </text>
+  <text x="420" y="24" fill="#a9b1d6" font-family="monospace" font-size="11">
+    CONNECTION_SECURE
+  </text>
+  <circle cx="820" cy="20" r="5" fill="#00f0ff">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+  </circle>
+</svg>
 
 ## 📈 System Metrics (GitHub Analytics)
 
@@ -190,7 +439,25 @@
 
 </div>
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Animated Load Status Indicator for Learning Journey -->
+<svg width="100%" height="40" viewBox="0 0 850 40" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="40" fill="#050814" rx="5" stroke="#00f0ff" stroke-width="1">
+    <animate attributeName="stroke" values="#00f0ff;#00ff66;#00f0ff" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="20" y="24" fill="#00ff66" font-family="monospace" font-size="12" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">cat timeline.log --follow</tspan>
+  </text>
+  <text x="350" y="24" fill="#a9b1d6" font-family="monospace" font-size="11">
+    UPDATING TIME BLOCKS...
+  </text>
+  <g transform="translate(680, 15)">
+    <rect width="10" height="10" fill="#00ff66"><animate attributeName="opacity" values="0.2;1;0.2" dur="1s" repeatCount="indefinite" /></rect>
+    <rect x="15" width="10" height="10" fill="#00ff66"><animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0.2s" repeatCount="indefinite" /></rect>
+    <rect x="30" width="10" height="10" fill="#00ff66"><animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0.4s" repeatCount="indefinite" /></rect>
+    <rect x="45" width="10" height="10" fill="#00ff66"><animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0.6s" repeatCount="indefinite" /></rect>
+    <rect x="60" width="10" height="10" fill="#00ff66"><animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0.8s" repeatCount="indefinite" /></rect>
+  </g>
+</svg>
 
 ## 📖 Learning Timeline & Goals
 
@@ -210,7 +477,14 @@ Next  ➜ System Design (High Level / Low Level), Cloud Nodes, Backend Architect
 - 💼 Contribute actively to open-source systems
 - ⭐ Reach 1000+ GitHub contributions with a solid green activity matrix
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Loading Divider Line for Philosophy & Connect -->
+<svg width="100%" height="20" viewBox="0 0 850 20" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="2" fill="#121c33" y="9" />
+  <rect x="0" width="100" height="3" fill="#00ff66" y="8.5">
+    <animate attributeName="x" values="0;750;0" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00ff66;#00f0ff;#00ff66" dur="5s" repeatCount="indefinite" />
+  </rect>
+</svg>
 
 ## ⚙️ Core Philosophy & Routines
 
@@ -228,7 +502,14 @@ while (alive) {
 "First, solve the problem. Then, write the code." — John Johnson
 ```
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Loading Divider Line -->
+<svg width="100%" height="20" viewBox="0 0 850 20" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="2" fill="#121c33" y="9" />
+  <rect x="0" width="100" height="3" fill="#00f0ff" y="8.5">
+    <animate attributeName="x" values="750;0;750" dur="5s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#00f0ff;#00ff66;#00f0ff" dur="5s" repeatCount="indefinite" />
+  </rect>
+</svg>
 
 ## 🐍 Contribution Snake
 
@@ -238,7 +519,13 @@ while (alive) {
   <img src="https://raw.githubusercontent.com/vishalJoshiVJ00/vishalJoshiVJ00/output/github-contribution-grid-snake-dark.svg" alt="Snake" />
 </p>
 
-<img src="assets/cyber-divider.svg" width="100%" />
+<!-- Loading Divider Line -->
+<svg width="100%" height="20" viewBox="0 0 850 20" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="2" fill="#121c33" y="9" />
+  <rect x="0" width="100" height="3" fill="#00ff66" y="8.5">
+    <animate attributeName="x" values="0;750;0" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>
 
 ## 🌐 Network Interconnect: Connect with Me
 
