@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 15" width="850" height="15">
+  <defs>
+    <style>
+      @keyframes pulse-energy {
+        0% { stroke-dashoffset: 850; }
+        100% { stroke-dashoffset: -850; }
+      }
+      .base-line {
+        stroke: #121c33;
+        stroke-width: 2;
+        stroke-linecap: round;
+      }
+      .laser-pulse {
+        stroke: url(#laser-grad);
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-dasharray: 100, 750;
+        animation: pulse-energy 4s linear infinite;
+      }
+    </style>
+    <linearGradient id="laser-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00ff66" stop-opacity="1" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <line x1="10" y1="7.5" x2="840" y2="7.5" class="base-line" />
+  <circle cx="10" cy="7.5" r="3" fill="#00ff66" />
+  <circle cx="840" cy="7.5" r="3" fill="#00f0ff" />
+  <line x1="10" y1="7.5" x2="840" y2="7.5" class="laser-pulse" />
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 40" width="850" height="40">
+  <defs>
+    <style>
+      @keyframes borderGlow {
+        0%, 100% { stroke: #00ff66; }
+        50% { stroke: #00f0ff; }
+      }
+      @keyframes progressGrow {
+        0% { width: 0; }
+        70%, 100% { width: 200px; }
+      }
+      .box {
+        fill: #050814;
+        stroke-width: 1;
+        animation: borderGlow 4s infinite ease-in-out;
+      }
+      .progress-bar {
+        fill: #00f0ff;
+        animation: progressGrow 3s infinite ease-in-out;
+      }
+      .text-style {
+        font-family: monospace;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <rect width="840" height="38" x="5" y="1" rx="5" class="box" />
+  <text x="20" y="24" fill="#00ff66" class="text-style" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">run --subroutine=learning_focus</tspan>
+  </text>
+  <text x="390" y="24" fill="#a9b1d6" class="text-style">
+    STATUS: <tspan fill="#00f0ff">ACTIVE_COMPILING</tspan>
+  </text>
+  <rect x="560" y="15" width="200" height="8" fill="#121c33" rx="2" />
+  <rect x="560" y="15" width="0" height="8" rx="2" class="progress-bar" />
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 40" width="850" height="40">
+  <defs>
+    <style>
+      @keyframes borderGlow {
+        0%, 100% { stroke: #00f0ff; }
+        50% { stroke: #00ff66; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .box {
+        fill: #050814;
+        stroke-width: 1;
+        animation: borderGlow 4s infinite ease-in-out;
+      }
+      .cursor {
+        fill: #00ff66;
+        animation: blink 1s infinite;
+      }
+      .text-style {
+        font-family: monospace;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <rect width="840" height="38" x="5" y="1" rx="5" class="box" />
+  <text x="20" y="24" fill="#00ff66" class="text-style" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">load_module --name=identity</tspan>
+  </text>
+  <text x="350" y="24" fill="#a9b1d6" class="text-style">
+    [<tspan fill="#00ff66">████████████████████</tspan>] 100% COMPILING
+  </text>
+  <circle cx="820" cy="20" r="5" fill="#00ff66" class="cursor" />
+</svg>

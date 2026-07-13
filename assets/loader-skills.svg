@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 40" width="850" height="40">
+  <defs>
+    <style>
+      @keyframes borderGlow {
+        0%, 100% { stroke: #00ff66; }
+        50% { stroke: #00f0ff; }
+      }
+      @keyframes dataPing {
+        0% { cx: 600; opacity: 1; }
+        100% { cx: 800; opacity: 0; }
+      }
+      .box {
+        fill: #050814;
+        stroke-width: 1;
+        animation: borderGlow 4s infinite ease-in-out;
+      }
+      .ping {
+        animation: dataPing 2s infinite linear;
+      }
+      .text-style {
+        font-family: monospace;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+  <rect width="840" height="38" x="5" y="1" rx="5" class="box" />
+  <text x="20" y="24" fill="#00ff66" class="text-style" font-weight="bold">
+    vishal@ai-core:~$ <tspan fill="#ffffff">query_db --all-skills</tspan>
+  </text>
+  <text x="320" y="24" fill="#a9b1d6" class="text-style">
+    DATA_STREAM: <tspan fill="#00ff66">FETCH_SUCCESS (200 OK)</tspan>
+  </text>
+  <line x1="600" y1="20" x2="800" y2="20" stroke="#121c33" stroke-width="2" stroke-linecap="round" />
+  <circle cx="600" cy="20" r="4" fill="#00f0ff" class="ping" />
+</svg>
