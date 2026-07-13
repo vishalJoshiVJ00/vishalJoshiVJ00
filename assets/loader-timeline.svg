@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 40" width="850" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 50" width="850" height="50">
   <defs>
     <style>
       @keyframes borderGlow {
-        0%, 100% { stroke: #00f0ff; }
-        50% { stroke: #00ff66; }
+        0%, 100% { stroke: #00f0ff; filter: drop-shadow(0 0 2px #00f0ff); }
+        50% { stroke: #00ff66; filter: drop-shadow(0 0 5px #00ff66); }
       }
       @keyframes nodeFade {
         0%, 100% { opacity: 0.2; }
@@ -11,11 +11,12 @@
       }
       .box {
         fill: #050814;
-        stroke-width: 1;
+        stroke-width: 1.5;
         animation: borderGlow 4s infinite ease-in-out;
       }
       .node-anim {
         fill: #00ff66;
+        filter: drop-shadow(0 0 2px #00ff66);
         animation: nodeFade 1.2s infinite ease-in-out;
       }
       .node-1 { animation-delay: 0s; }
@@ -25,22 +26,22 @@
       .node-5 { animation-delay: 0.8s; }
       .text-style {
         font-family: monospace;
-        font-size: 12px;
+        font-size: 14px;
       }
     </style>
   </defs>
-  <rect width="840" height="38" x="5" y="1" rx="5" class="box" />
-  <text x="20" y="24" fill="#00ff66" class="text-style" font-weight="bold">
+  <rect width="840" height="46" x="5" y="2" rx="6" class="box" />
+  <text x="20" y="29" fill="#00ff66" class="text-style" font-weight="bold">
     vishal@ai-core:~$ <tspan fill="#ffffff">cat timeline.log --follow</tspan>
   </text>
-  <text x="350" y="24" fill="#a9b1d6" class="text-style">
+  <text x="350" y="29" fill="#a9b1d6" class="text-style">
     UPDATING TIME BLOCKS...
   </text>
-  <g transform="translate(680, 14)">
-    <rect width="10" height="10" rx="2" class="node-anim node-1" />
-    <rect x="15" width="10" height="10" rx="2" class="node-anim node-2" />
-    <rect x="30" width="10" height="10" rx="2" class="node-anim node-3" />
-    <rect x="45" width="10" height="10" rx="2" class="node-anim node-4" />
-    <rect x="60" width="10" height="10" rx="2" class="node-anim node-5" />
+  <g transform="translate(680, 18)">
+    <rect width="12" height="12" rx="3" class="node-anim node-1" />
+    <rect x="18" width="12" height="12" rx="3" class="node-anim node-2" />
+    <rect x="36" width="12" height="12" rx="3" class="node-anim node-3" />
+    <rect x="54" width="12" height="12" rx="3" class="node-anim node-4" />
+    <rect x="72" width="12" height="12" rx="3" class="node-anim node-5" />
   </g>
 </svg>

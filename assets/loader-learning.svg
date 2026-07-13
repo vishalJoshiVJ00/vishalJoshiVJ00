@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 40" width="850" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 50" width="850" height="50">
   <defs>
     <style>
       @keyframes borderGlow {
-        0%, 100% { stroke: #00ff66; }
-        50% { stroke: #00f0ff; }
+        0%, 100% { stroke: #00ff66; filter: drop-shadow(0 0 2px #00ff66); }
+        50% { stroke: #00f0ff; filter: drop-shadow(0 0 5px #00f0ff); }
       }
       @keyframes progressGrow {
         0% { width: 0; }
-        70%, 100% { width: 200px; }
+        70%, 100% { width: 220px; }
       }
       .box {
         fill: #050814;
-        stroke-width: 1;
+        stroke-width: 1.5;
         animation: borderGlow 4s infinite ease-in-out;
       }
       .progress-bar {
@@ -20,17 +20,17 @@
       }
       .text-style {
         font-family: monospace;
-        font-size: 12px;
+        font-size: 14px;
       }
     </style>
   </defs>
-  <rect width="840" height="38" x="5" y="1" rx="5" class="box" />
-  <text x="20" y="24" fill="#00ff66" class="text-style" font-weight="bold">
+  <rect width="840" height="46" x="5" y="2" rx="6" class="box" />
+  <text x="20" y="29" fill="#00ff66" class="text-style" font-weight="bold">
     vishal@ai-core:~$ <tspan fill="#ffffff">run --subroutine=learning_focus</tspan>
   </text>
-  <text x="390" y="24" fill="#a9b1d6" class="text-style">
+  <text x="390" y="29" fill="#a9b1d6" class="text-style">
     STATUS: <tspan fill="#00f0ff">ACTIVE_COMPILING</tspan>
   </text>
-  <rect x="560" y="15" width="200" height="8" fill="#121c33" rx="2" />
-  <rect x="560" y="15" width="0" height="8" rx="2" class="progress-bar" />
+  <rect x="560" y="19" width="220" height="10" fill="#121c33" rx="3" />
+  <rect x="560" y="19" width="0" height="10" rx="3" class="progress-bar" />
 </svg>

@@ -1,18 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 40" width="850" height="40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 50" width="850" height="50">
   <defs>
     <style>
       @keyframes borderGlow {
-        0%, 100% { stroke: #00f0ff; }
-        50% { stroke: #00ff66; }
+        0%, 100% { stroke: #00f0ff; filter: drop-shadow(0 0 2px #00f0ff); }
+        50% { stroke: #00ff66; filter: drop-shadow(0 0 5px #00ff66); }
       }
       @keyframes signalFlash {
-        0%, 100% { fill: #00ff66; }
-        33% { fill: #00f0ff; }
-        66% { fill: #ff5f56; }
+        0%, 100% { fill: #00ff66; filter: drop-shadow(0 0 4px #00ff66); }
+        33% { fill: #00f0ff; filter: drop-shadow(0 0 4px #00f0ff); }
+        66% { fill: #ff5f56; filter: drop-shadow(0 0 4px #ff5f56); }
       }
       .box {
         fill: #050814;
-        stroke-width: 1;
+        stroke-width: 1.5;
         animation: borderGlow 4s infinite ease-in-out;
       }
       .signal {
@@ -20,16 +20,16 @@
       }
       .text-style {
         font-family: monospace;
-        font-size: 12px;
+        font-size: 14px;
       }
     </style>
   </defs>
-  <rect width="840" height="38" x="5" y="1" rx="5" class="box" />
-  <text x="20" y="24" fill="#00ff66" class="text-style" font-weight="bold">
+  <rect width="840" height="46" x="5" y="2" rx="6" class="box" />
+  <text x="20" y="29" fill="#00ff66" class="text-style" font-weight="bold">
     vishal@ai-core:~$ <tspan fill="#ffffff">map_interests --visualize</tspan>
   </text>
-  <text x="350" y="24" fill="#a9b1d6" class="text-style">
+  <text x="350" y="29" fill="#a9b1d6" class="text-style">
     [<tspan fill="#00ff66">■■■■■■■■■■■■■■■■■■■■</tspan>] 100% SYNCED
   </text>
-  <circle cx="820" cy="20" r="5" class="signal" />
+  <circle cx="820" cy="25" r="6" class="signal" />
 </svg>
